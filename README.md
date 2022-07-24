@@ -1,2 +1,2 @@
 # Dotfiles
-    Uploading my dotfiles here like normal people do, and to start using Git more.
+    Just my dotfiles for Linux Window Managers, Applications, Scripts etc. 
