@@ -1,0 +1,3 @@
+Put in following location.
+
+~/.local/share/color-schemes
