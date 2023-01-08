@@ -1,0 +1,5 @@
+# Ignore .bat scripts in root folder
+/*.bat
+
+# Ingore .sh scripts in root folder
+/*.sh
