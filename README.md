@@ -1,7 +1,5 @@
 # Dotfiles
-
-Just my dotfiles for Linux Window Managers, Applications, Scripts etc.
+My Linux dotfiles, nothing great.
 
 # TODO
-
-Reorganised stuff better.
+Add more and better organised.
