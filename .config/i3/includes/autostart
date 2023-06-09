@@ -1,0 +1,5 @@
+# Autostart programs
+exec_always --no-startup-id dunst
+exec_always --no-startup-id feh --bg-fill --randomize ~/Pictures/Wallpapers/Michal\ Kalisz/Aircraft\ engine/*
+exec_always --no-startup-id picom -b
+exec_always --no-startup-id /usr/lib/polkit-kde-authentication-agent-1 &
