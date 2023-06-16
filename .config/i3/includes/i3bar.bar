@@ -1,0 +1,20 @@
+# bar_sections.bar
+bar {
+    status_command i3status -c ~/.config/i3/i3status.conf
+    # status_command polybar
+    # font pango: Hack Font 12
+    position top
+    separator_symbol "|"
+    strip_workspace_numbers yes
+    colors {
+                # statusline  $red
+                # background  $red
+                # separator   $green
+
+                # Colors           border backgr text
+                # focused_workspace  $black $blue2 $white #$orange $blue2
+                # active_workspace   $black $black $white #$black $black
+                # inactive_workspace $darkred $black $white #$black $black
+                # urgent_workspace   $red $red $white $red #$black
+        }
+}

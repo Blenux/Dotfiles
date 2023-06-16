@@ -1,7 +1,8 @@
-# Autostart programs
+# Autostart
 exec_always --no-startup-id dunst
-exec_always --no-startup-id feh --bg-fill --randomize ~/Pictures/Wallpapers/Michal\ Kalisz/Aircraft\ engine/*
+exec_always --no-startup-id dolphin --daemon
+exec_always --no-startup-id feh --bg-fill --recursive --randomize --slideshow-delay 10 ~/Pictures/Wallpapers/Jake
 exec_always --no-startup-id picom -b
 exec_always --no-startup-id /usr/lib/polkit-kde-authentication-agent-1 &
 
-exec_always -–no-startup-id xset dpms 333 666
+exec_always --no-startup-id xset dpms 333 666

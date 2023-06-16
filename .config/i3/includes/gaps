@@ -8,7 +8,7 @@ gaps bottom $gapsize
 gaps inner $gapsize
 gaps outer $gapsize
 
-bindsym $mod+g gaps inner all toggle 6
+bindsym $mod+g gaps outer all toggle 6
 
 # Only enable gaps on a workspace when there is at least one container
 smart_gaps on

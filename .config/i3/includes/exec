@@ -2,7 +2,7 @@
 set $mod Mod4
 set $bs bindsym
 floating_modifier $mod
-font pango:Hack Font 10
+font pango: Hack 10
 
 #set $ec exec --no-startup-id
 #set $ea exec_always --no-startup-id
@@ -59,27 +59,35 @@ assign [class="CCTV Viewer"] $ws11
 # kill Apps
 bindsym $mod+Shift+q kill
 
-# Automatic Switch to Urgent workspace
-#for_window [class="Bforartists"] focus
-#for_window [class="CCTV Viewer"] focus
+# Automatic Focus
+# for_window [class="Bforartists"] focus
+# for_window [class="CCTV Viewer"] focus
 #for_window [class="kitty"] focus
-#for_window [class="qBittorrent"] focus
-#for_window [class="Vivaldi"] focus
+# for_window [class="qBittorrent"] focus
+# for_window [class="Vivaldi"] focus
+
 # Alternatively just do it all!
 for_window [class=".*"] focus
 
+# Set default floating size and position when making the active window float
+# for_window [class="^.*"] [Current] floating enable resize set 800 600, move position center
+for_window [class="kitty"] [Current] floating enable resize set 800 600, move position center
+
 # Floating
+# for_window [class="kitty"] [focus] floating enable resize set 800 600, move position center
+
 for_window [class="Nitrogen"] floating enable resize set 800 600, move position center
 for_window [class="qt5ct"] floating enable resize set 0 240, move position center
 for_window [title="^.*SDDM Theme Tester.*$"] floating enable
 for_window [class="sddm-greeter"] floating enable
 for_window [class="Bforartists"title="Preferences"] floating enable resize set 960 540, move position center
-
+for_window [class="ark"] floating enable resize set 960 540, move position center
 
 # start dmenu
 bindsym $mod+d exec --no-startup-id dmenu_run
 # alternative menu
-bindsym $mod+shift+d exec --no-startup-id "rofi -modi drun,run -show drun -columns 2 -show-icons"
+# bindsym $mod+shift+d exec --no-startup-id rofi -show drun 
+bindsym $mod+shift+d exec --no-startup-id "rofi -combi-modi window,drun,run -show combi -modi combi -show-icons -lines 25"
 bindsym $mod+shift+f exec --no-startup-id "~/Documents/rofi-vscode.sh"
 
 # change focus:
@@ -100,8 +108,9 @@ bindsym $mod+shift+s layout toggle split
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
 
-workspace_layout tabbed 
+workspace_layout tabbed
 #<stacking|tabbed>
+
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+w layout toggle tabbed split
 
@@ -119,16 +128,16 @@ bindsym $mod+alt+d focus child
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1: Main"
-set $ws2 "2: Code"
-set $ws3 "3: DCC"
-set $ws4 "4: Term"
-set $ws5 "5: Music"
-set $ws6 "6: FM"
-set $ws7 "7: 7"
-set $ws8 "8: 8"
-set $ws9 "9: 9"
-set $ws10 "10: 10"
+set $ws1 "1:Main"
+set $ws2 "2:Code"
+set $ws3 "3:DCC"
+set $ws4 "4:Term"
+set $ws5 "5:Music"
+set $ws6 "6:FM"
+set $ws7 "7:7"
+set $ws8 "8:8"
+set $ws9 "9:9"
+set $ws10 "10:10"
 set $ws11 "11:CCTV"
 
 # switch to workspace
@@ -160,8 +169,8 @@ bindsym $mod+Shift+F7 move container to workspace number $ws11
 # Tab Between Workspaces
 #workspace next|prev|next_on_output|prev_on_output
 
-bindsym $mod+Page_Up workspace prev_on_output
-bindsym $mod+Page_Down workspace next_on_output
+bindsym $mod+Page_Up workspace prev
+bindsym $mod+Page_Down workspace next
 
 # Toggle Between Current and Last Workspaces
 #workspace_auto_back_and_forth yes
@@ -199,7 +208,7 @@ mode "resize" {
 }
 
 # Restart, Reload , Exit:
-bindsym $mod+Shift+c reload; exec --no-startup-id --no-startup-id  notify-send "i3 Reloaded" "i3 configuration has been reloaded"
+bindsym $mod+Shift+c reload; exec --no-startup-id --no-startup-id  # notify-send "i3 Reloaded" "i3 configuration has been reloaded"
 bindsym $mod+Shift+r restart; exec --no-startup-id --no-startup-id  sh -c 'sleep 4 && dunstify "i3 Restarted" "i3 configuration has been restarted"'
 bindsym $mod+Shift+e exec --no-startup-id --no-startup-id  "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
@@ -212,4 +221,7 @@ for_window [all] title_window_icon padding 13px
 title_align center
 smart_borders on
 bindsym $mod+b exec --no-startup-id i3-msg border toggle
+
+
+
 

@@ -1,4 +1,5 @@
 # i3ipc_scripts tests
+#exec_always --no-startup-id  /home/juso3d/.config/i3/includes/ipc_scripts/floating.py
 #exec_always --no-startup-id  /home/juso3d/.config/i3/includes/ipc_scripts/grid_layout.py
 #exec_always --no-startup-id  /home/juso3d/.config/i3/includes/ipc_scripts/tabbed_layout.py
 #exec_always --no-startup-id  /home/juso3d/.config/i3/includes/ipc_scripts/tab3.py
