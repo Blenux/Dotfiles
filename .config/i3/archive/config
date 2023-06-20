@@ -1,11 +1,11 @@
 ## ASCII ##
- #__________.__                              
+ #__________.__
  #\______   \  |   ____   ____  __ _____  ___
  #|    |  _/  | _/ __ \ /    \|  |  \  \/  /
- #|    |   \  |_\  ___/|   |  \  |  />    < 
+ #|    |   \  |_\  ___/|   |  \  |  />    <
  #|______  /____/\___  >___|  /____//__/\_ \
  #       \/          \/     \/            \/
-                                                                 
+
 # Set Mode Key
  set $mod Mod4
 
@@ -22,7 +22,7 @@
  exec --no-startup-id xss-lock --transfer-sleep-lock -- 'i3lock -c 000000' & --nofork
 
  # Lock Desktop
- bindsym --release $mod+Control+Shift+l exec i3lock -c 000000 -n 
+ bindsym --release $mod+Control+Shift+l exec i3lock -c 000000 -n
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
  # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -96,7 +96,7 @@ bindsym $mod+Shift+a sticky toggle
  assign [class="Vivaldi"] $ws1
  assign [class="code-oss"] $ws1
  assign [class="kitty"] $ws1
- #workspace2 
+ #workspace2
  assign [class="Mailspring"] $ws2
  assign [class="discord"] $ws2
  assign [class="kmail"] $ws2
@@ -168,7 +168,7 @@ bindsym $mod+Shift+a sticky toggle
  #for_window [class="kitty"] floating enable, move position center, resize set 720 720
 
  #Window Roles Floating
- for_window [window_role="bubble"]                       floating enable 
+ for_window [window_role="bubble"]                       floating enable
  for_window [window_role="Preferences"]                  floating enable
  for_window [window_type="dialog"]                       floating enable
  for_window [window_type="menu"]                         floating enable
@@ -194,7 +194,7 @@ bindsym $mod+Shift+a sticky toggle
 
  for_window [class="latte-dock"] floating enable
 
- 
+
  #############################
  # Non-Floating Applications #
  #############################
@@ -221,7 +221,7 @@ bindsym $mod+Shift+a sticky toggle
 ########
 #Border#
 ########
- bindsym $mod+b exec i3-msg border toggle 
+ bindsym $mod+b exec i3-msg border toggle
 
  ##############
  #Border mode#
@@ -230,7 +230,7 @@ bindsym $mod+Shift+a sticky toggle
 
 # Gaps
  gaps inner 4
- gaps outer 4 
+ gaps outer 4
 
 # Use pactl to adjust volume in PulseAudio.
  set $refresh_i3status killall -SIGUSR1 i3status
@@ -253,13 +253,13 @@ bindsym $mod+Shift+a sticky toggle
  bindsym $mod+ctrl+q exec --no-startup-id kitty xkill
 
 # Testing Alt+Tab
- #bindsym Mod4+Tab exec --no-startup-id  i3-msg border pixel 5; focus right 
+ #bindsym Mod4+Tab exec --no-startup-id  i3-msg border pixel 5; focus right
  #bindsym --release Mod4+Tab exec i3-msg border pixel 0
- #bindsym Mod4+Shift+Tab exec --no-startup-id  i3-msg border pixel 5; focus right 
+ #bindsym Mod4+Shift+Tab exec --no-startup-id  i3-msg border pixel 5; focus right
  #bindsym --release Mod4+Shift+Tab exec i3-msg border pixel 0
 
 # Start dmenu/rofi:
- 
+
  #bindsym $mod+shift+Tab exec --no-startup-id i3-dmenu-desktop
 
  bindsym $mod+shift+Tab exec "rofi -show window -show-icons -switchers-ctrl+n"
@@ -351,7 +351,7 @@ bindsym $mod+Shift+a sticky toggle
 ###############
 #Reload Config#
 ###############
- # 
+ #
  bindsym $mod+End reload
  # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
  bindsym $mod+Home restart
@@ -428,7 +428,7 @@ bindsym $mod+Shift+a sticky toggle
                 urgent_workspace  	$nord	$red	$white
         }
  }
- 
+
  #################
  # Second Monitor#
  #################
@@ -448,7 +448,7 @@ bindsym $mod+Shift+a sticky toggle
                 focused_workspace	$dark	$blue2	$white
                 active_workspace	$nord	$nord	$white
                 inactive_workspace	$nord	$nord	$white
-                urgent_workspace  	$nord	$red	$white       
+                urgent_workspace  	$nord	$red	$white
         }
  }
 

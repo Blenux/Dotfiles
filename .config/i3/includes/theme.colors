@@ -5,7 +5,7 @@ client.unfocused        $darkred $black $white $black $black
 client.urgent           $red $red $white $red $black
 client.placeholder      $black $purple $purple $purple $purple
 
-client.background       $white 
+client.background       $white
 
 # RGBA Colors
 set $red #FF0000
