@@ -34,7 +34,7 @@ bindsym $mod+F9 exec --no-startup-id "/home/juso3d/Documents/sddm\ projects/test
 bindsym $mod+F12 exec --no-startup-id /home/juso3d/Documents/bfa.sh
 #bindsym $mod+F12 exec --no-startup-id /home/juso3d/Documents/Blender-Dev/build_linux/bin/bforartists
 # bindsym $mod+shift+F12 exec --no-startup-id /home/juso3d/Documents/Blender-Dev/build_linux_lite/bin/bforartists
-bindsym $mod+F11 exec --no-startup-id '/home/juso3d/Documents/Blender-Dev/BFA Releases/Bforartists-3-5-1-Linux/bforartists'
+bindsym $mod+F11 exec --no-startup-id '/home/juso3d/Git/BFA Releases/Bforartists-3-5-1-Linux/bforartists'
 
 # WS1 - Main
 assign [class="Vivaldi-stable"] $ws1
