@@ -25,7 +25,8 @@ alias i3r="i3-msg reload"
 #alias bki3="cp -r /home/juso3d/.config/i3/ /home/juso3d/Documents/Dotfiles/.config/"
 
 # Dont allow make to use all cores to keep system stability.
-alias make='make -j3'
+alias ml='make NPROCS=3'
+alias m2='make NPROCS=3 lite'
 
 # Pacman
 alias pi='sudo pacman -S'
