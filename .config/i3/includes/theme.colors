@@ -1,29 +1,32 @@
-# class                 border  bground text indicator child_border
-client.focused          $black $blue2 $white $orange $blue2
-client.focused_inactive $black $black $white $black $black
-client.unfocused        $darkred $black $white $black $black
-client.urgent           $red $red $white $red $black
-client.placeholder      $black $purple $purple $purple $purple
+# class        border  bground text indicator child_border
+    client.focused $blue2 $black $white $lime $blue2
+    client.focused_inactive $black $black $white $black $black
+    client.unfocused $darkred $black $white $black $black
+    client.urgent $red $red $white $red $black
+    client.placeholder $black $purple $purple $purple $purple
 
-client.background       $white
+    client.background $purple
+# class
 
 # RGBA Colors
-set $red #FF0000
-set $green #00FF00
-set $blue #0000FF
-set $white #FFFFFF
+    set $red #FF0000
+    set $green #00FF00
+    set $blue #0000FF
+    set $white #FFFFFF
+# RGBA Colors
 
-set $darkred #AA0000
-set $black #000000
-set $blue2 #3B6EA5
-
-set $gray #808080
-set $darkgray #666666
-set $lime #00FF00
-set $blue3 #275375
-set $purple #800080
-set $magenta #FF00FF
-set $orange #FFA500
-set $cyan #00FFFF
-set $dark #778899
-set $nord #2f343f
+# Custom Colors
+    set $black #000000
+    set $blue2 #3B6EA5
+    set $blue3 #275375
+    set $cyan #00FFFF
+    set $dark #778899
+    set $darkgray #666666
+    set $darkred #AA0000
+    set $gray #808080
+    set $lime #00FF00
+    set $magenta #FF00FF
+    set $nord #2f343f
+    set $orange #FFA500
+    set $purple #800080
+# Custom Colors

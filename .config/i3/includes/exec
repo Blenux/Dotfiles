@@ -77,10 +77,10 @@ bindsym $mod+Shift+q kill
 # for_window [class="CCTV Viewer"] focus
 # for_window [class="kitty"] focus
 # for_window [class="qBittorrent"] focus
-# for_window [class="Vivaldi"] focus
+#  for_window [class="Vivaldi"] focus
 
 # Alternatively just do it all!
-for_window [class=".*"] focus
+for_window [class="^.*"] focus
 
 # Set default floating size and position when making the active window float
 # for_window [class="^.*"] [Current] floating enable resize set 800 600, move position center
@@ -102,8 +102,8 @@ bindsym $mod+d exec --no-startup-id dmenu_run
 # alternative menu
 # bindsym $mod+shift+d exec --no-startup-id rofi -show drun
 bindsym $mod+Tab exec --no-startup-id "rofi -show window"
-bindsym $mod+shift+d exec --no-startup-id "rofi -combi-modi window,drun,run -show combi -modi combi -show-icons -lines 25"
-bindsym $mod+shift+f exec --no-startup-id "~/Documents/rofi-vscode.sh"
+bindsym $mod+shift+d exec --no-startup-id "rofi -show"
+bindsym $mod+shift+f exec --no-startup-id "~/Documents/scripts/rofi-vscode.sh"
 
 # change focus:
 bindsym $mod+Left focus left
