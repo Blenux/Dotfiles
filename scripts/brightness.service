@@ -1,0 +1,11 @@
+# Copy to /etc/systemd/system/ and then systemctl enable brightness.service
+
+[Unit]
+Description=Set backlight ownership and permissions
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash -c "sleep 10 && /bin/chown juso3d:juso3d /sys/class/backlight/intel_backlight && /bin/chmod 666 /sys/class/backlight/intel_backlight/brightness"
+
+[Install]
+WantedBy=default.target
