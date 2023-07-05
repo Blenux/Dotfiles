@@ -11,3 +11,6 @@ exec_always --no-startup-id picom -b
 # Power Management, Cursor Idle
 exec_always --no-startup-id xset dpms 300 60 60
 exec_always --no-startup-id xsetroot -cursor_name left_ptr
+
+# Polybar
+# exec --no-startup-id polybar -c ~/.config/polybar/config.ini
