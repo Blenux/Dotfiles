@@ -1,8 +1,12 @@
 include ~/.config/i3/includes/autostart
 include ~/.config/i3/includes/bar.bar
+include ~/.config/i3/includes/workspaces
 include ~/.config/i3/includes/exec
+
+include ~/.config/i3/includes/floating
 include ~/.config/i3/includes/gaps
-include ~/.config/i3/includes/theme.colors
+# include ~/.config/i3/includes/theme.colors
+
 include ~/.config/i3/includes/xf86
 
 #include ~/.config/i3/includes/ipcs
