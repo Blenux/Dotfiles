@@ -1,0 +1,23 @@
+# Floating
+
+# Set default floating size and position when making the active window float
+# for_window [class="^.*"] [Current] floating enable resize set 800 600, move position center
+# for_window [class="kitty"] [Current] floating enable resize set 800 600, move position center
+# for_window [class="kitty"] [focus] floating enable resize set 800 600, move position center
+
+for_window [class="Nitrogen"] floating enable resize set 800 600, move position center
+for_window [class="qt5ct"] floating enable resize set 0 240, move position center
+for_window [title="^.*SDDM Theme Tester.*$"] floating enable
+for_window [class="sddm-greeter"] floating enable
+for_window [class="Bforartists"title="Preferences"] floating enable resize set 960 540, move position center
+for_window [class="ark"] floating enable resize set 960 540, move position center
+for_window [class="plasma.emojier"] floating enable #resize set 800 480, position right
+
+# >>> Avoid tiling for non-Plasma stuff <<<
+for_window [window_role="pop-up"] floating enable
+for_window [window_role="bubble"] floating enable
+for_window [window_role="task_dialog"] floating enable
+for_window [window_role="Preferences"] floating enable
+for_window [window_role="About"] floating enable
+for_window [window_type="dialog"] floating enable
+for_window [window_type="menu"] floating enable
