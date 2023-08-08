@@ -1,19 +1,10 @@
-# class        border  bground text indicator child_border
-    client.focused $blue2 $black $white $lime $blue2
-    client.focused_inactive $black $black $white $black $black
-    client.unfocused $darkred $black $white $black $black
-    client.urgent $red $red $white $red $black
-    client.placeholder $black $purple $purple $purple $purple
 
-    client.background $purple
-# class
 
 # RGBA Colors
     set $red #FF0000
     set $green #00FF00
     set $blue #0000FF
     set $white #FFFFFF
-# RGBA Colors
 
 # Custom Colors
     set $black #000000
@@ -29,4 +20,3 @@
     set $nord #2f343f
     set $orange #FFA500
     set $purple #800080
-# Custom Colors

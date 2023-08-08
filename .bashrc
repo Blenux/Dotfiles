@@ -46,8 +46,8 @@ alias m1='cd ~/Git/Bforartists && make NPROCS="$(nproc --ignore=2)"'
 alias m2='cd ~/Git/Bforartists && make NPROCS="$(nproc --ignore=2)" lite'
 
 # Bforartists Compiles
-alias b1='~/Git/build_linux_full/bin/bforartists'
-alias b2='~/Git/build_linux_lite/bin/bforartists'
+alias b1='~/Git/bfa_build_linux_full/bin/bforartists'
+alias b2='~/Git/bfa_build_linux_lite/bin/bforartists'
 
 # Flatpak:
 alias fpi='flatpak install'
