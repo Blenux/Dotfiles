@@ -1,0 +1,206 @@
+[Document 0]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+URL=file:///home/juso3d/.local/share/kcookiejar/cookies
+
+[Kate Plugins]
+cmaketoolsplugin=false
+compilerexplorer=false
+externaltoolsplugin=true
+katebacktracebrowserplugin=false
+katebuildplugin=false
+katecloseexceptplugin=false
+katecolorpickerplugin=false
+katectagsplugin=false
+katefilebrowserplugin=true
+katefiletreeplugin=true
+kategdbplugin=false
+kategitblameplugin=false
+katekonsoleplugin=true
+kateprojectplugin=true
+katereplicodeplugin=false
+katesearchplugin=true
+katesnippetsplugin=false
+katesqlplugin=false
+katesymbolviewerplugin=false
+katexmlcheckplugin=false
+katexmltoolsplugin=false
+keyboardmacrosplugin=false
+ktexteditorpreviewplugin=false
+latexcompletionplugin=false
+lspclientplugin=true
+rainbowparens=false
+tabswitcherplugin=true
+textfilterplugin=true
+
+[MainWindow0]
+2560x1440 screen: Height=1080
+2560x1440 screen: Width=1429
+2560x1440 screen: XPosition=370
+2560x1440 screen: YPosition=142
+Active ViewSpace=0
+DP-4=DP-4
+Kate-MDI-H-Splitter=0,1339,0
+Kate-MDI-Sidebar-0-Bar-0-TvList=lspclient_symbol_outline,kate_private_plugin_katefiletreeplugin,kateproject,kateprojectgit,kate_lspclient,kate_private_plugin_katefileselectorplugin,kateprojectinfo,kate_plugin_katesearch
+Kate-MDI-Sidebar-0-LastSize=298
+Kate-MDI-Sidebar-0-SectSizes=0
+Kate-MDI-Sidebar-0-Splitter=1058
+Kate-MDI-Sidebar-1-Bar-0-TvList=
+Kate-MDI-Sidebar-1-LastSize=200
+Kate-MDI-Sidebar-1-SectSizes=0
+Kate-MDI-Sidebar-1-Splitter=1058
+Kate-MDI-Sidebar-2-Bar-0-TvList=kate_private_plugin_katekonsoleplugin
+Kate-MDI-Sidebar-2-LastSize=160
+Kate-MDI-Sidebar-2-SectSizes=0
+Kate-MDI-Sidebar-2-Splitter=1339
+Kate-MDI-Sidebar-3-Bar-0-TvList=output
+Kate-MDI-Sidebar-3-LastSize=452
+Kate-MDI-Sidebar-3-SectSizes=0
+Kate-MDI-Sidebar-3-Splitter=1036
+Kate-MDI-Sidebar-Style=2
+Kate-MDI-Sidebar-Visible=true
+Kate-MDI-ToolView-kate_lspclient-Position=0
+Kate-MDI-ToolView-kate_lspclient-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kate_lspclient-Visible=false
+Kate-MDI-ToolView-kate_plugin_katesearch-Position=0
+Kate-MDI-ToolView-kate_plugin_katesearch-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kate_plugin_katesearch-Visible=false
+Kate-MDI-ToolView-kate_private_plugin_katefileselectorplugin-Position=0
+Kate-MDI-ToolView-kate_private_plugin_katefileselectorplugin-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kate_private_plugin_katefileselectorplugin-Visible=false
+Kate-MDI-ToolView-kate_private_plugin_katefiletreeplugin-Position=0
+Kate-MDI-ToolView-kate_private_plugin_katefiletreeplugin-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kate_private_plugin_katefiletreeplugin-Visible=false
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Position=2
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Visible=false
+Kate-MDI-ToolView-kateproject-Position=0
+Kate-MDI-ToolView-kateproject-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kateproject-Visible=false
+Kate-MDI-ToolView-kateprojectgit-Position=0
+Kate-MDI-ToolView-kateprojectgit-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kateprojectgit-Visible=false
+Kate-MDI-ToolView-kateprojectinfo-Position=0
+Kate-MDI-ToolView-kateprojectinfo-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kateprojectinfo-Visible=false
+Kate-MDI-ToolView-lspclient_symbol_outline-Position=0
+Kate-MDI-ToolView-lspclient_symbol_outline-Show-Button-In-Sidebar=false
+Kate-MDI-ToolView-lspclient_symbol_outline-Visible=false
+Kate-MDI-ToolView-output-Position=3
+Kate-MDI-ToolView-output-Show-Button-In-Sidebar=false
+Kate-MDI-ToolView-output-Visible=false
+Kate-MDI-V-Splitter=0,1028,0
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABWcAAAQ4AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAAAAAAIAAAAYAGgAYQBtAGIAdQByAGcAZQByAEIAYQByAwAAAAD/////AAAAAAAAAAAAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgMAAAAoAAABggAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[MainWindow0][Toolbar hamburgerBar]
+IconSize=16
+
+[MainWindow0 Settings]
+2560x1440 screen: Height=1080
+2560x1440 screen: Width=1429
+2560x1440 screen: XPosition=370
+2560x1440 screen: YPosition=142
+DP-4=DP-4
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABWcAAAQ4AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAAAAAAIAAAAYAGgAYQBtAGIAdQByAGcAZQByAEIAYQByAwAAAAD/////AAAAAAAAAAAAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgMAAAAoAAABggAAAAAAAAAA
+ToolBarsMovable=Disabled
+WindowState=0
+
+[MainWindow0 Settings][Toolbar hamburgerBar]
+IconSize=16
+
+[MainWindow0-Splitter 0]
+Children=MainWindow0-ViewSpace 0
+Orientation=2
+Sizes=1028
+
+[MainWindow0-ViewSpace 0]
+Active View=file:///home/juso3d/.local/share/kcookiejar/cookies
+Count=1
+Documents=file:///home/juso3d/.local/share/kcookiejar/cookies
+View 0=file:///home/juso3d/.local/share/kcookiejar/cookies
+
+[MainWindow0-ViewSpace 0 file:///home/juso3d/.local/share/kcookiejar/cookies]
+CursorColumn=0
+CursorLine=0
+Dynamic Word Wrap=true
+JumpList=
+TextFolding={"checksum":"fb0438d2ac0017d7ecadfd1d20f88f8c0760fce6","ranges":[]}
+ViMarks=
+
+[Open Documents]
+Count=1
+
+[Open MainWindows]
+Count=1
+
+[Plugin:katefilebrowserplugin:MainWindow:0]
+Allow Expansion=false
+Decoration position=2
+Show Inline Previews=true
+Show Preview=false
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=false
+View Style=DetailTree
+auto sync folder=true
+filter history=
+highlight current file=true
+location=file:///home/juso3d/.local/share/kcookiejar/
+
+[Plugin:kateprojectplugin:]
+projects=
+
+[Plugin:katesearchplugin:MainWindow:0]
+BinaryFiles=false
+CurrentExcludeFilter=-1
+CurrentFilter=-1
+ExcludeFilters=
+ExpandSearchResults=false
+Filters=
+FollowSymLink=false
+HiddenFiles=false
+MatchCase=false
+Place=1
+Recursive=true
+Replaces=
+Search=
+SearchAsYouTypeAllProjects=true
+SearchAsYouTypeCurrentFile=true
+SearchAsYouTypeFolder=true
+SearchAsYouTypeOpenFiles=true
+SearchAsYouTypeProject=true
+SearchDiskFiles=
+SearchDiskFiless=
+UseRegExp=false
+
+[Recent Files]
+File1[$e]=$HOME/blender_terminal_output.txt
+File10[$e]=$HOME/.local/share/kcookiejar/cookies
+File2[$e]=$HOME/Downloads/Modo16.1v8_Linux.sh
+File3[$e]=$HOME/Git/dolphin/CMakePresets.json
+File4[$e]=$HOME/Git/dolphin/CMakeLists.txt
+File5[$e]=$HOME/Git/dolphin/build-dolphin/prefix.sh
+File6[$e]=/mnt/1TB SSD/blender-git/config/CP-config.txt
+File7[$e]=/mnt/250GB SSD/SteamLibrary/libraryfolder.vdf
+File8[$e]=$HOME/.local/share/Bluecherry/servers.json
+File9[$e]=$HOME/.local/share/dolphin/dolphinstaterc
+Name1[$e]=blender_terminal_output.txt
+Name10[$e]=cookies
+Name2[$e]=Modo16.1v8_Linux.sh
+Name3[$e]=CMakePresets.json
+Name4[$e]=CMakeLists.txt
+Name5[$e]=prefix.sh
+Name6[$e]=CP-config.txt
+Name7[$e]=libraryfolder.vdf
+Name8[$e]=servers.json
+Name9[$e]=dolphinstaterc

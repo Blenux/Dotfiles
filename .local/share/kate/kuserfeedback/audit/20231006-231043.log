@@ -1,0 +1,50 @@
+{
+    "applicationVersion": {
+        "data": {
+            "value": "22.12.3"
+        },
+        "description": "The version of the application.",
+        "telemetryMode": "BasicSystemInformation"
+    },
+    "platform": {
+        "data": {
+            "os": "linux",
+            "version": "debian-12"
+        },
+        "description": "Type and version of the operating system.",
+        "telemetryMode": "BasicSystemInformation"
+    },
+    "qtVersion": {
+        "data": {
+            "value": "5.15.8"
+        },
+        "description": "The Qt version used by this application.",
+        "telemetryMode": "BasicSystemInformation"
+    },
+    "screens": {
+        "data": [
+            {
+                "devicePixelRatio": 1,
+                "dpi": 109,
+                "height": 1440,
+                "width": 2560
+            }
+        ],
+        "description": "Size and resolution of all connected screens.",
+        "telemetryMode": "DetailedSystemInformation"
+    },
+    "startCount": {
+        "data": {
+            "value": 122
+        },
+        "description": "How often the application has been started.",
+        "telemetryMode": "BasicUsageStatistics"
+    },
+    "usageTime": {
+        "data": {
+            "value": 71761
+        },
+        "description": "The total amount of time the application has been used.",
+        "telemetryMode": "BasicUsageStatistics"
+    }
+}

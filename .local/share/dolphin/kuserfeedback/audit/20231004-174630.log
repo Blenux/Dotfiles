@@ -1,0 +1,77 @@
+{
+    "applicationVersion": {
+        "data": {
+            "value": "22.12.3"
+        },
+        "description": "The version of the application.",
+        "telemetryMode": "BasicSystemInformation"
+    },
+    "locale": {
+        "data": {
+            "language": "English",
+            "region": "Australia"
+        },
+        "description": "The current region and language settings.",
+        "telemetryMode": "DetailedUsageStatistics"
+    },
+    "places": {
+        "data": {
+            "hasNfsShare": false,
+            "hasSSHFSMount": false,
+            "hasSambaShare": false
+        },
+        "description": "Count of available Network Shares",
+        "telemetryMode": "DetailedSystemInformation"
+    },
+    "platform": {
+        "data": {
+            "os": "linux",
+            "version": "debian-12"
+        },
+        "description": "Type and version of the operating system.",
+        "telemetryMode": "BasicSystemInformation"
+    },
+    "qtVersion": {
+        "data": {
+            "value": "5.15.8"
+        },
+        "description": "The Qt version used by this application.",
+        "telemetryMode": "BasicSystemInformation"
+    },
+    "screens": {
+        "data": [
+            {
+                "devicePixelRatio": 1,
+                "dpi": 109,
+                "height": 1440,
+                "width": 2560
+            }
+        ],
+        "description": "Size and resolution of all connected screens.",
+        "telemetryMode": "DetailedSystemInformation"
+    },
+    "settings": {
+        "data": {
+            "browseArchivesEnable": false,
+            "foldersPanelEnabled": true,
+            "informationPanelEnabled": true,
+            "tooltipsEnabled": false
+        },
+        "description": "A subset of Dolphin settings.",
+        "telemetryMode": "DetailedSystemInformation"
+    },
+    "startCount": {
+        "data": {
+            "value": 128
+        },
+        "description": "How often the application has been started.",
+        "telemetryMode": "BasicUsageStatistics"
+    },
+    "usageTime": {
+        "data": {
+            "value": 1315582
+        },
+        "description": "The total amount of time the application has been used.",
+        "telemetryMode": "BasicUsageStatistics"
+    }
+}

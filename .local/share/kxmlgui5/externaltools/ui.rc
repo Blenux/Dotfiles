@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE gui>
+<gui version="6" translationDomain="kateexternaltoolsplugin" name="externaltools">
+ <MenuBar>
+  <Menu noMerge="1" name="tools">
+   <text translationDomain="kateexternaltoolsplugin">&amp;Tools</text>
+   <Action group="tools_operations3" name="tools_external"/>
+  </Menu>
+ </MenuBar>
+ <ToolBar noMerge="1" name="mainToolBar">
+  <text translationDomain="kateexternaltoolsplugin">Main Toolbar</text>
+ </ToolBar>
+</gui>
